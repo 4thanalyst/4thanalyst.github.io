@@ -1,0 +1,17 @@
+<DOCTYPE! HTML>
+  <html>
+    <body>
+      <h1>Uji Coba</h1>
+      <button id='btn_mau' oneclick='alert( LOVE U )'>Mau</button>
+      <button id='btn_gamau' oneclick='gamau(this)' style='position:absolute'>Gamau</button>
+    </body>
+    <scrypt>
+      function gamau(id) {
+           var mau = document.getElementById('btn_mau');
+           var i = Math.floor(Math.random()*300)+1;
+           var j = Math.floor(math.random()*100)+mau.offsetTop;
+           id.style.left = i+'px';
+           id.style.top = j+'px'
+      }
+    </scrypt>
+  </html>
