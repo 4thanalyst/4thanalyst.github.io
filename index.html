@@ -5,7 +5,7 @@
       <button id='btn_mau' oneclick='alert( LOVE U )'>Mau</button>
       <button id='btn_gamau' oneclick='gamau(this)' style='position:absolute'>Gamau</button>
     </body>
-    <scrypt>
+    <script>
       function gamau(id) {
            var mau = document.getElementById('btn_mau');
            var i = Math.floor(Math.random()*300)+1;
@@ -13,5 +13,5 @@
            id.style.left = i+'px';
            id.style.top = j+'px'
       }
-    </scrypt>
+    </script>
   </html>
